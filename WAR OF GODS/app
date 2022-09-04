@@ -1,0 +1,136 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        // Greek Class
+
+        Greek brawler = new Greek();
+
+        brawler.strength = 10;
+        brawler.damage = 10;
+        brawler.agility = 5;
+        brawler.defense = 6;
+        brawler.intelligence = 9;
+        brawler.name = "Zues";
+        brawler.sayMyName();
+
+        // Special weapon of Zeus
+
+        Special volt = new Special();
+
+        volt.damage = 10;
+        volt.weight = 10;
+        volt.name = "Water Volt";
+        volt.description = "Travels through water";
+        volt.rarity = "Extraordinary";
+        volt.hasElementalDamage = true;
+        
+
+
+
+
+        Greek guardian = new Greek();
+
+        guardian.strength = 10;
+        guardian.damage = 10;
+        guardian.agility = 5;
+        guardian.defense = 10;
+        guardian.intelligence = 9;
+        guardian.name = "Ares";
+        guardian.sayMyName();
+
+        Greek scout = new Greek();
+
+        scout.strength = 10;
+        scout.damage = 10;
+        scout.agility = 5;
+        scout.defense = 10;
+        scout.intelligence = 9;
+        scout.name = "Artemis";
+        scout.sayMyName();
+
+        Greek support = new Greek();
+
+        support.strength = 10;
+        support.damage = 10;
+        support.agility = 5;
+        support.defense = 10;
+        support.intelligence = 9;
+        support.name = "Asclepius";
+        support.sayMyName();
+
+        Greek tactician = new Greek();
+
+        tactician.strength = 10;
+        tactician.damage = 10;
+        tactician.agility = 5;
+        tactician.defense = 10;
+        tactician.intelligence = 9;
+        tactician.name = "Athena";
+        tactician.sayMyName();
+
+
+        // Roman Class
+
+        Roman disputer = new Roman();
+
+        disputer.strength = 10;
+        disputer.damage = 10;
+        disputer.agility = 5;
+        disputer.defense = 6;
+        disputer.intelligence = 9;
+        disputer.name = "Jupiter";
+        disputer.sayMyName();
+
+        Roman warden = new Roman();
+
+        warden.strength = 10;
+        warden.damage = 10;
+        warden.agility = 5;
+        warden.defense = 10;
+        warden.intelligence = 9;
+        warden.name = "Mars";
+        warden.sayMyName();
+
+        Roman vanguard = new Roman();
+
+        vanguard.strength = 10;
+        vanguard.damage = 10;
+        vanguard.agility = 5;
+        vanguard.defense = 10;
+        vanguard.intelligence = 9;
+        vanguard.name = "Apollo";
+        vanguard.sayMyName();
+
+        Roman upholder = new Roman();
+
+        upholder.strength = 10;
+        upholder.damage = 10;
+        upholder.agility = 5;
+        upholder.defense = 10;
+        upholder.intelligence = 9;
+        upholder.name = "Aesculapius";
+        upholder.sayMyName();
+
+        Roman strategist = new Roman();
+
+        strategist.strength = 10;
+        strategist.damage = 10;
+        strategist.agility = 5;
+        strategist.defense = 10;
+        strategist.intelligence = 9;
+        strategist.name = "Minerva";
+        strategist.sayMyName();
+
+        // Default Weapon
+
+        Weapon sword = new Weapon();
+
+        sword.damage = 9;
+        sword.weight = 5.3f;
+        sword.name = "default";
+        sword.rarity = "common";
+        sword.hasElementalDamage = false;
+
+
+    }
+}
