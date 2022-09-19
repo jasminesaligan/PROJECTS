@@ -1,0 +1,34 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        String today = "default";
+
+        switch (today) {
+            case "monday":
+                System.out.println("mondays are so tiring");
+                break;
+            case "tuesday":
+                System.out.println("I have a longer sleep every tuesday");
+                break;
+            case "wednesday":
+                System.out.println("Wednesday is my favorite day!!!!!!!!!!");
+                break;
+            case "thursday":
+                System.out.println("Busy attending two long hours subjects");
+                break;
+            case "friday":
+                System.out.println("I just have to attend one subject every friday");
+                break;
+            case "Saturday":
+                System.out.println("Attend PE subject and do the homeworks after");
+                break;
+            case "Sunday":
+                System.out.println("Sunday is my rest day!");
+                break;
+            default:
+               System.out.println("Sleep, drawing, watching, reading");
+                break;
+        }
+
+    }
+}
