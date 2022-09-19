@@ -1,0 +1,36 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Conditional Structure
+        boolean ihaveNoMoney = false;
+
+        if (ihaveNoMoney) {
+            System.out.println("Borrow a money from rere");
+        } else {
+            // Step 1
+            walkToTrainStation();
+
+            // Step 2
+            ridePNR();
+
+            // Step 3
+            walkToNUManila();
+        }
+
+    }
+
+    static void walkToTrainStation() {
+        System.out.println("Walk to train station for about 5 mins");
+    }
+
+    static void  ridePNR() {
+        System.out.println("Ride PNR Train from Sucat Station");
+        System.out.println("Exit PNR Train at Espana Station");
+    }
+
+    static void walkToNUManila() {
+        System.out.println("Walk to NU Manila from Espana Station");
+    }
+
+   
+    }
