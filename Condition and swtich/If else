@@ -2,11 +2,19 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Conditional Structure
-        boolean ihaveNoMoney = false;
+        boolean classSuspended = false;
+        boolean ihaveNoMoney = true;
 
-        if (ihaveNoMoney) {
-            System.out.println("Borrow a money from rere");
-        } else {
+        if (classSuspended) {
+            System.out.println("Stay at home");
+        } 
+        else if (ihaveNoMoney) {
+            System.out.println("Ask rere for money");
+            
+        }
+        
+        
+        else  {
             // Step 1
             walkToTrainStation();
 
