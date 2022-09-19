@@ -3,14 +3,17 @@ public class App {
 
         // Conditional Structure
         boolean classSuspended = false;
-        boolean ihaveNoMoney = true;
+        boolean ihaveNoMoney = false;
+        boolean holiday = true;
 
         if (classSuspended) {
             System.out.println("Stay at home");
         } 
         else if (ihaveNoMoney) {
             System.out.println("Ask rere for money");
-            
+        }
+        else if (holiday) {
+            System.out.println("Spend time with fam");
         }
         
         
