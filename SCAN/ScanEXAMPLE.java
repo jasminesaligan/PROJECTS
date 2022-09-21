@@ -16,6 +16,12 @@ public class App {
         int divide = divide();
         System.out.println("The difference is: " + divide);
 
+        int subtract = subtract();
+        System.out.println("The minued is: " + subtract);
+        
+        int add = sum();
+        System.out.println("The sum is: " + add);
+
         // close scanner
         scan.close();
     }
@@ -43,4 +49,26 @@ public class App {
 
         return x / y;
     }
-}
+    // This method will request for two numbers and will subtract them.
+    static int subtract() {
+        System.out.println("This method will subtract two numbers from user input");
+        System.out.print("Enter the first number: ");
+        int x = scan.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int y = scan.nextInt();
+
+        return x - y;
+    }
+    // This method will request for two numbers and will subtract them.
+    static int sum() {
+        System.out.println("This method will add two numbers from user input");
+        System.out.print("Enter the first number: ");
+        int x = scan.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int y = scan.nextInt();
+
+        return x + y;
+    }
+} 
