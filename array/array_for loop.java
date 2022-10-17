@@ -12,6 +12,12 @@ public class Main
 				System.out.println(name[i]); 
              
        }
+	      // to constant
+	       if (!(name[i] == 'J' || name[i] == 'S' || name[i] == 'M' || name[i] == 'N')) {
+				// Display each vowel
+				System.out.println(name[i]); 
+             
+       }
         //   System.out.println(name[i]);
       }
     
