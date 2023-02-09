@@ -1,0 +1,25 @@
+public class METHODS2 {
+    public static void main(String[] args) throws Exception {
+        // WEEK 9 DISCUSSION: Methods (PART 2)
+
+        // TOPIC 1: parts of method
+        // TOPIC 2: methods with returned value
+        
+        double i = 15.7;
+        double j = 12.8;
+        double k = max(i, j);
+
+        System.out.println("The maximun of  "  + i + " and " + j + " is " + k);
+    }
+
+    // method
+    public static double max(double num1, double num2){
+        double result;
+        if(num1 > num2){
+            result = num1;
+        } else {
+            result = num2;
+        }
+        return result;
+    }
+}
