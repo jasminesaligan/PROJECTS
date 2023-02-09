@@ -1,0 +1,36 @@
+public class METHODS1 {
+    public static void main(String[] args) throws Exception {
+    // WEEK 9 DISCUSSION: Methods (PART 1)
+
+
+    // Methods can be used to define a reusable code
+    // Methods let you organize and simplify your code
+
+    // #1 total of specific range values
+    //     int result = 0;
+    //     for(int i =1; i<=10; i++){
+    //         result +=i;
+    //     }
+        System.out.println("Sum of 1 to 10: " + sum(1, 10));
+
+    // total from from 20 to 37
+    //     result = 0;
+    //     for(int i =20; i<=37; i++){
+    //         result +=i;
+    //     }
+        System.out.println("Sum of 20 to 37: " + sum(20, 37));
+
+    }
+
+    //  However, with the help of method, we can make the code reusable
+    
+    // Method Declaration
+    public static int sum (int start, int end) {
+        int result = 0;
+        for(int i =start; i <=end; i++){
+            result +=i;
+        }
+        return result;
+
+    }
+}
