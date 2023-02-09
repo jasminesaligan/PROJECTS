@@ -1,0 +1,55 @@
+public class METHODS4 {
+    public static void main(String[] args) throws Exception {
+        // WEEK 9 DISCUSSION: Methods (PART 3)
+
+        // TOPIC 3: return value with void
+        
+        // Example: Grade
+        printGrade(getGrade());
+
+    }
+
+    public static double getGrade(){
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+
+        System.out.print("Enter quiz 1: ");
+        double q1 = sc.nextDouble();
+
+        System.out.print("Enter quiz 2: ");
+        double q2 = sc.nextDouble();
+
+        System.out.print("Enter quiz 3: ");
+        double q3 = sc.nextDouble();
+        
+        double grade = (q1 + q2 + q3)/3;
+
+        // output
+        return grade;
+    }
+
+        // return to void
+        //  A return statement to void is not need.
+        //  Return statement can be used to terminate the void method.
+
+        public static void printGrade(double average){
+            System.out.print("Your grade is:  ");
+
+            if(average < 0 || average >100){
+                System.out.print("INVALID");
+                return;
+            }
+
+            if(average >= 90){
+                System.out.println('A');
+            } else if(average>= 80) {
+                System.out.println('B');
+            } else if(average >= 70) {
+                System.out.println('C');
+            } else if(average >= 60) {
+                System.out.println('D');
+            } else {
+                System.out.println('F');
+            }
+
+        }
+}
